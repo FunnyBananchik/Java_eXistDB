@@ -1,0 +1,125 @@
+0=Default XQDataSource login time out has been set to {0,number} seconds.
+1=Default XQDataSource description being set to "{0}".
+2={0}.createExpression() invoked.
+3={0}.createExpression() invoked with a XQStaticContext parameter.
+4={0}.prepareExpression(String) invoked, with the raw XQuery of: {1}
+5={0}.prepareExpression(String, XQStaticContext) invoked, with the raw XQuery of: {1}
+6={0}.prepareExpression(Reader) invoked.
+7={0}.prepareExpression(Reader, XQStaticContext) invoked.
+8={0}.prepareExpression(InputStream) invoked.
+9={0}.prepareExpression(InputStream, XQStaticContext) invoked.
+10={0}.rollback() invoked.
+11=XQConnection.getStaticContext() invoked.
+12={0}.cancel() invoked.
+13={0}.close() invoked.
+14={0}.executeQuery() invoked, with the raw XQuery of: {1}
+15={0}.executeQuery(), raw XQuery resolved to: {1}
+16={0}.executeCommand(String) invoked, with raw text input: {1}
+17={0}.executeCommand(Reader) invoked.
+18={0}.executeQuery(String) invoked, [Validating XQuery = {2}] and raw XQuery is: {1}
+19={0}.executeQuery(String), raw XQuery resolved to: {1}
+20=QName parameter can not be null.
+21=Value parameter can not be null.
+22={0}.bindAtomicValue(QName, String, XQItemType) invoked, [QName={1}, value={2}, type={3}]
+23={0}.bindBoolean(QName, boolean, XQItemType) invoked, [QName={1}, boolean={2}, type={3}]
+24={0}.bindByte(QName, byte, XQItemType) invoked, [QName={1}, byte={2}, type={3}]
+25={0}.bindDouble(QName, double, XQItemType) invoked, [QName={1}, double={2}, type={3}]
+26={0}.bindFloat(QName, float, XQItemType) invoked, [QName={1}, float={2}, type={3}]
+27={0}.bindInt(QName, int, XQItemType) invoked, [QName={1}, int={2}, type={3}]
+28={0}.bindLong(QName, long, XQItemType) invoked, [QName={1}, long={2}, type={3}]
+29={0}.bindNode(QName, Node, XQItemType) invoked, [QName={1}, Node={2}, type={3}], binding Documents or Elements in DOM form is not recommended.
+30={0}.bindShort(QName, short, XQItemType) invoked, [QName={1}, short={2}, type={3}]
+31={0}.bindDocument(QName, String, baseURI, XQItemType) invoked, [QName={1}, String={2}, baseURI={3}, XQItemType={4}]
+32={0}.bindDocument(QName, Reader, baseURI, XQItemType) invoked, [QName={1}, Reader={2}, baseURI={3}, XQItemType={4}]
+33={0}.bindDocument(QName, InputStream, baseURI, XQItemType) invoked, [QName={1}, InputStream={2}, baseURI={3}, XQItemType={4}]
+34={0}.bindDocument(QName, XMLStreamReader, XQItemType) invoked, [QName={1}, XMLStreamReader={2}, XQItemType={3}]
+35={0}.bindDocument(QName, Source, XQItemType) invoked, [QName={1}, Source={2}, XQItemType={3}]
+36={0}.bindItem(QName, XQItem) invoked, [QName={1}, XQItem={2}]
+37={0}.bindObject(QName, Object, XQItemType) invoked, [QName={1}, Object={2}, Object.toString()={3}, XQItemType={4}]
+38={0}.bindString(QName, String, XQItemType) invoked, [QName={1}, value={2}, type={3}]
+39={0}.absolute({1}) invoked.
+40={0}.afterLast() invoked.
+41={0}.beforeFirst() invoked.
+42={0}.close() invoked.
+43={0}.count() invoked.
+44={0}.getPosition() invoked.
+45={0}.isOnItem() invoked.
+46={0}.isScrollable() invoked.
+47={0}.first() invoked.
+48={0}.getItem() invoked.
+49={0}.getSequenceAsStream() invoked.
+50={0}.getSequenceAsString(Properties) invoked, [Properties={1}]
+51={0}.isAfterLast() invoked.
+52={0}.isBeforeFirst() invoked.
+53={0}.isFirst() invoked.
+54={0}.isLast() invoked.
+55={0}.last() invoked.
+56={0}.next() invoked.
+57={0}.previous() invoked.
+58={0}.relative({1}) invoked.
+59={0}.writeSequence(OutputStream, Properties) invoked, [OutputStream={1}, Properties={2}]
+60={0}.writeSequence(Writer, Properties) invoked, [Writer={1}, Properties={2}]
+61={0}.writeSequenceToSAX(ContentHandler) invoked, [ContentHandler={1}]
+62={0}.writeSequenceToResult(Result) invoked, [Result={1}]
+63={0}.getBoolean() invoked.
+64={0}.getByte() invoked.
+65={0}.getDouble() invoked.
+66={0}.getFloat() invoked.
+67={0}.getInt() invoked.
+68={0}.getItemType() invoked.
+69={0}.getAtomicValue() invoked.
+70={0}.getLong() invoked.
+71={0}.getNode() invoked.
+72={0}.getNodeUri() invoked.
+73={0}.getObject() invoked.
+74={0}.getItemAsStream() invoked.
+75={0}.getItemAsString(Properties) invoked, [Properties={1}]
+76={0}.getShort() invoked.
+77={0}.instanceOf(XQItemType) invoked, [XQItemType={1}]
+78={0}.writeItem(OutputStream, Properties) invoked, [OutputStream={1}, Properties={2}]
+79={0}.writeItem(Writer, Properties) invoked, [Writer={1}, Properties={2}]
+80={0}.writeItemToSAX(ContentHandler) invoked, [ContentHandler={1}]
+81={0}.writeItemToResult(Result) invoked, [Result={1}]
+82={0}.getConnection() invoked.
+83={0} now assigned to {1}.
+84={0}.bindDocument(QName, Source, XQItemType) invoked, [QName={1}, Source={2}, XQItemType={3}], binding from a DOMSource instance, dealing with XML via DOM is bad practice in general.
+85={0}.createItemFromAtomicValue(String, XQItemType) invoked, [String={1}, XQItemType={2}]
+86={0}.createItemFromString(String, XQItemType) invoked, [String={1}, XQItemType={2}]
+87={0}.createItemFromDocument(String value, String baseURI, XQItemType) invoked, [value={1}, baseURI={2}, XQItemType={3}]
+88={0}.createItemFromDocument(Reader, String baseURI, XQItemType) invoked, [Reader={1}, baseURI={2}, XQItemType={3}]
+89={0}.createItemFromDocument(InputStream, String baseURI, XQItemType) invoked, [InputStream={1}, baseURI={2}, XQItemType={3}]
+90={0}.createItemFromDocument(XMLStreamReader, XQItemType) invoked, [XMLStreamReader={1}, XQItemType={2}]
+91={0}.createItemFromDocument(XMLReader, XQItemType) invoked, [XMLReader={1}, XQItemType={2}]
+92={0}.createItemFromDocument(Source, XQItemType) invoked, [Source={1}, XQItemType={2}]
+93={0}.createItemFromObject(Object, XQItemType) invoked, [Object={1}, Object.toString()={2}, XQItemType={3}]
+94={0}.createItemFromBoolean(boolean, XQItemType) invoked, [boolean={1}, XQItemType={2}]
+95={0}.createItemFromByte(byte, XQItemType) invoked, [byte={1}, XQItemType={2}]
+96={0}.createItemFromDouble(double, XQItemType) invoked, [double={1}, XQItemType={2}]
+97={0}.createItemFromFloat(float, XQItemType) invoked, [float={1}, XQItemType={2}]
+98={0}.createItemFromInt(int, XQItemType) invoked, [int={1}, XQItemType={2}]
+99={0}.createItemFromLong(long, XQItemType) invoked, [long={1}, XQItemType={2}]
+100={0}.createItemFromNode(Node, XQItemType) invoked, [Node={1}, XQItemType={2}]
+101={0}.createItemFromShort(short, XQItemType) invoked, [short={1}, XQItemType={2}]
+102={0}.createItem(XQItem) invoked, [XQItem.toString()={1}]
+103={0}.createSequence(XQSequence) invoked, [XQSequence={1}]
+104={0}.createSequence(Iterator) invoked, [Iterator={1}]
+105={0}.createAtomicType(int) invoked, [int={1}]
+106={0}.createAtomicType(int, QName, URI) invoked, [int={1}, QName={2}, URI={3}]
+107={0}.createAttributeType(QName, int) invoked, [QName={1}, int={2}]
+108={0}.createAttributeType(QName nodename, int basetype, QName typename, URI schemaURI) invoked, [nodename={1}, basetype={2}, typename={3}, schemaURI={4}]
+109={0}.createSchemaAttributeType(QName nodename, int basetype, URI schemaURI) invoked, [nodename={1}, basetype={2}, schemaURI={3}]
+110={0}.createCommentType() invoked.
+111={0}.createDocumentElementType(XQItemType) invoked, [XQItemType={1}]
+112={0}.createDocumentSchemaElementType(XQItemType) invoked, [XQItemType={1}]
+113={0}.createDocumentType() invoked.
+114={0}.createElementType(QName, int) invoked, [QName={1}, int={2}]
+115={0}.createElementType(QName nodename, int basetype, QName typename, URI schemaURI, boolean allowNill) invoked, [nodename={1}, basetype={2}, typename={3}, schemaURI={4}, allowNill={5}]
+116={0}.createSchemaElementType(QName nodename, int basetype, URI schemaURI) invoked, [nodename={1}, basetype={2}, schemaURI={3}]
+117={0}.createItemType() invoked.
+118={0}.createNodeType() invoked.
+119={0}.createProcessingInstructionType(String) invoked, [String={1}]
+120={0}.createSequenceType(XQItemType, int) invoked, [XQItemType={1}, occurrence={2}]
+121={0}.createTextType() invoked.
+122={0}.bindSequence(QName, XQSequence) invoked, [QName={1}, XQSequence={2}]
+123={0}.setImplicitTimeZone(TimeZone) invoked, [TimeZone={1}]
+124={0}.getImplicitTimeZone() invoked.
